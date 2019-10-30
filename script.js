@@ -10,7 +10,7 @@ inputI.addEventListener("keyup", function(event) {
 		}else if(input == "/download"){
 			var file = prompt("File:");
 				if(file == "JaknamClan.jar"){
-				div.innerHTML = "<a href=\"Programm/exported/JaknamClan.jar\" id=\"downloadL\"></a>";
+				div.innerHTML = "<a href=\"Programm/JaknamClan/exported/JaknamClan.jar\" id=\"downloadL\"></a>";
 				document.getElementById("downloadL").click();
 				div.innerHTML = "";
 			}else{
