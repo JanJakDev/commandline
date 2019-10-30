@@ -1,17 +1,18 @@
 var inputI = document.getElementById("input");
-var divD = document.getElementById("div");
+var div = document.getElementById("div");
 
 inputI.addEventListener("keyup", function(event) {
 	if (event.keyCode === 13) {
 		event.preventDefault();
-		divD.innerHTML = "";
 		var input = document.getElementById("input").value;
 		if(input == "/help"){
-			divD.innerHTML = "<p>/download /help /contact</p>";
+			alert("Use: /download /help /contact");
 		}else if(input == "/download"){
-			divD.innerHTML = "<a href=\"Programm/exported/CommandLine.jar\">Download</a>";
+			div.innerHTML = "<a href=\"Programm/exported/JaknamClan.jar\" id=\"downloadL\"></a>";
+			document.getElementById("downloadL").click();
+			div.innerHTML = "";
 		}else if(input == "/contact"){
-			divD.innerHTML = "<p>Discord: JanJakJar#3161</p>";
+			alert("Discord: JanJakJar#3161");
 		}else{
 			
 		}
