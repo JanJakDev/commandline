@@ -1,0 +1,25 @@
+package de.jan.commandline.main;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String input;
+		JFrame frame = new JFrame();
+		frame.setSize(500, 500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("Jaknam-Clan");
+		frame.setLocationRelativeTo(null);
+		frame.setVisible(true);
+		
+		JPanel panel = new JPanel();
+	}
+	
+	public static void msg(String message, String title) {
+		JOptionPane.showMessageDialog(null, message, title, JOptionPane.DEFAULT_OPTION);
+	}
+
+}
