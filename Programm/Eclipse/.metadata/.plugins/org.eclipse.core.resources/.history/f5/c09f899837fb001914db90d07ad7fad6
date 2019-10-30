@@ -25,13 +25,13 @@ public class Main {
 		
 		JLabel JLeader = new JLabel("Anführer: JanJakJar");
 		JLeader.setForeground(Color.RED);
-		JLeader.setBounds(20, 20, 450, 20);
+		leader.
 		
 		JTextField jtf = new JTextField(30);
 		jtf.setBounds(0, 0, 450, 20);
 		
 		panel.add(jtf);
-		panel.add(JLeader);
+		panel.add(leader);
 		
 		frame.add(panel);
 		frame.setVisible(true);

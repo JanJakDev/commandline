@@ -21,17 +21,15 @@ public class Main {
 		frame.setTitle("Jaknam Clan");
 		frame.setLocationRelativeTo(null);
 		
-		JPanel panel = new JPanel(null);
+		JPanel panel = new JPanel();
 		
-		JLabel JLeader = new JLabel("Anführer: JanJakJar");
-		JLeader.setForeground(Color.RED);
-		JLeader.setBounds(20, 20, 450, 20);
+		JLabel leader = new JLabel("Anführer: JanJakJar");
+		leader.setForeground(Color.RED);
 		
 		JTextField jtf = new JTextField(30);
-		jtf.setBounds(0, 0, 450, 20);
 		
 		panel.add(jtf);
-		panel.add(JLeader);
+		panel.add(leader);
 		
 		frame.add(panel);
 		frame.setVisible(true);
@@ -63,7 +61,6 @@ public class Main {
 						break;
 					case "/commands":
 						msg("/clan /anführer /kontakt /q", input);
-						break;
 					default:
 						msg("Command nicht gefunden! Commands unter \"/commands\"!", input + "?");
 					}

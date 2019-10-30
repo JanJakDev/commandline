@@ -25,13 +25,13 @@ public class Main {
 		
 		JLabel JLeader = new JLabel("Anführer: JanJakJar");
 		JLeader.setForeground(Color.RED);
-		JLeader.setBounds(20, 20, 450, 20);
+		leader.
 		
 		JTextField jtf = new JTextField(30);
 		jtf.setBounds(0, 0, 450, 20);
 		
 		panel.add(jtf);
-		panel.add(JLeader);
+		panel.add(leader);
 		
 		frame.add(panel);
 		frame.setVisible(true);
@@ -46,7 +46,7 @@ public class Main {
 						msg("Clanname: Jaknam", input);
 						break;
 					case "/anführer":
-						msg("Clananführer: " + leader, input);
+						msg("Clananführer: " + "JanJakJar", input);
 						break;
 					case "/kontakt":
 						String player = JOptionPane.showInputDialog(null, "Spielername:", input, JOptionPane.DEFAULT_OPTION);
