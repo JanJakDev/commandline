@@ -28,11 +28,13 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\Eclipse"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
 		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Main - CommanLine"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\exported\CommandLine.jar"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\exported\JaknamClan.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\exported\JaknamClan.jar"/>
 			<item value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\exported\CommandLine.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\MinecraftServerDev\Desktop\Projekte\Command\Website\Programm\Eclipse.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
