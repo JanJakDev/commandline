@@ -8,9 +8,14 @@ inputI.addEventListener("keyup", function(event) {
 		if(input == "/help"){
 			alert("Use: /download /help /contact");
 		}else if(input == "/download"){
-			div.innerHTML = "<a href=\"Programm/exported/JaknamClan.jar\" id=\"downloadL\"></a>";
-			document.getElementById("downloadL").click();
-			div.innerHTML = "";
+			var file = prompt("File:");
+				if(file == "JaknamClan.jar"){
+				div.innerHTML = "<a href=\"Programm/exported/JaknamClan.jar\" id=\"downloadL\"></a>";
+				document.getElementById("downloadL").click();
+				div.innerHTML = "";
+			}else{
+				alert("\"" + file + "\" nicht gefunden!");
+			}
 		}else if(input == "/contact"){
 			alert("Discord: JanJakJar#3161");
 		}else{
